@@ -55,6 +55,22 @@ header h1 {
     display: block;
     object-fit: cover; /* Maintain aspect ratio and cover container */
 }
+.image-container 2 {
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px auto 20px;
+    /* max-width: 600px;  Let's remove this limit for now */
+    width: 40%; /* Occupy 80% of the header's width */
+    max-height: 400px; /* Added a maximum height */
+    <img src="imagem1.jpg" style="width: 100px; display: inline-block; margin-right: 10px;">
+<img src="imagem2.jpg" style="width: 100px; display: inline-block;">
+}
+.image-container img 2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+}
 
 header p {
     font-size: 1.1em;
