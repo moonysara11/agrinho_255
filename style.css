@@ -3,8 +3,8 @@
 /* Variáveis */
 :root {
     --primary-color: #2209ff;
-    --secondary-color:rgb(46, 227, 227);
-    --text-color: #1bc20f;
+    --secondary-color:rgb(90, 43, 131);
+    --text-color: #206c1b;
     --background-color: #204A4F;
     --button-hover: #9815d1;
     --font-body: "Chocolate Classical Sans", serif;
@@ -21,7 +21,7 @@
 
 /* Body Styles */
 body {
-    background-color: var(--background-color);
+    background-color:var(--background-color);
     color: var(--text-color);
     line-height: 4.6;
 }
